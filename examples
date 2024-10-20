@@ -18,3 +18,32 @@ print (replace)
 #split the string
 word = text.split()
 print (word)
+
+#subesrting
+substring = "easy"
+if substring in text:
+    print (substring, " : found the substring in sentance")
+
+#float
+num1 = 5
+num2 = 4
+
+result1 = num1 + num2
+print ("Addition:", result1)
+
+#rounding
+result2 = round(3.1415963, 2)
+print (result2)
+
+#regular string
+import re
+
+x = "my name is jeevan"
+pattern = "name"
+
+search = re.search(pattern, x)
+if search:
+    print ("found the pattern")
+else:
+    print ("pattern not found")
+
