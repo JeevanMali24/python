@@ -1,0 +1,15 @@
+#using function 
+
+a = 5
+b = 6
+
+def addition():
+    add = a + b
+    print (add)
+
+def sub():
+    sub = a - b
+    print (sub)
+    
+addition()
+sub()
